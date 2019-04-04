@@ -2,8 +2,8 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [TreeListExportForm.aspx](./CS/WebSite/TreeListExportForm.aspx) (VB: [TreeListExportForm.aspx.vb](./VB/WebSite/TreeListExportForm.aspx.vb))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+* [TreeListExportForm.aspx](./CS/WebSite/TreeListExportForm.aspx) (VB: [TreeListExportForm.aspx](./VB/WebSite/TreeListExportForm.aspx))
 * [TreeListExportForm.aspx.cs](./CS/WebSite/TreeListExportForm.aspx.cs) (VB: [TreeListExportForm.aspx.vb](./VB/WebSite/TreeListExportForm.aspx.vb))
 <!-- default file list end -->
 # How to create a toolbar to print and export the ASPxTreeList control
