@@ -8,7 +8,7 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 Imports System.IO
 
 Partial Public Class _Default
@@ -17,7 +17,7 @@ Partial Public Class _Default
 	Private xlsTreeListExport As New MemoryStream()
 	Private rtfTreeListExport As New MemoryStream()
 
-	Protected Sub mnuToolbar_ItemClick(ByVal source As Object, ByVal e As DevExpress.Web.ASPxMenu.MenuItemEventArgs)
+	Protected Sub mnuToolbar_ItemClick(ByVal source As Object, ByVal e As DevExpress.Web.MenuItemEventArgs)
 		Dim format As String = hdnFormat.Value ' or (mnuToolbar.Items[3].FindControl("cbFormat") as ASPxComboBox).Text;
 
 		If e.Item.Name = "mnuSaveToDisk" Then

@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxEditors;
+using DevExpress.Web;
 using System.IO;
 
 public partial class _Default : System.Web.UI.Page 
@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page
     private MemoryStream xlsTreeListExport = new MemoryStream();
     private MemoryStream rtfTreeListExport = new MemoryStream();
 
-    protected void mnuToolbar_ItemClick(object source, DevExpress.Web.ASPxMenu.MenuItemEventArgs e) {
+    protected void mnuToolbar_ItemClick(object source, DevExpress.Web.MenuItemEventArgs e) {
         string format = hdnFormat.Value; // or (mnuToolbar.Items[3].FindControl("cbFormat") as ASPxComboBox).Text;
 
         if(e.Item.Name == "mnuSaveToDisk") {
